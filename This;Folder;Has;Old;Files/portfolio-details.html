@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Vivek Raj Poojary</title>
+    <meta content="Namaste! Welcome to my website!" name="description" />
+    <meta
+      content="Vivek Raj, vivekraj, vivekrajpoojary, Vivek Raj Poojary"
+      name="keywords"
+    />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon" />
+    <link href="assets/img/favicon.ico" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <style>
+      /* From Uiverse.io by ferlagher */
+      button {
+        position: relative;
+        font-size: 1.2em;
+        padding: 0.7em 1.4em;
+        background-color: #bf0426;
+        text-decoration: none;
+        border: none;
+        border-radius: 0.5em;
+        color: #dedede;
+        box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+      }
+
+      button::before {
+        position: absolute;
+        content: "";
+        height: 0;
+        width: 0;
+        top: 0;
+        left: 0;
+        background: linear-gradient(
+          135deg,
+          rgb(244, 250, 253) 0%,
+          rgb(244, 250, 253) 50%,
+          rgba(150, 4, 31, 1) 50%,
+          rgba(191, 4, 38, 1) 60%
+        );
+        border-radius: 0 0 0.5em 0;
+        box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+        transition: 0.3s;
+      }
+
+      button:hover::before {
+        width: 1.6em;
+        height: 1.6em;
+      }
+
+      button:active {
+        box-shadow: 0.2em 0.2em 0.3em rgb(255, 255, 255);
+        transform: translate(0.1em, 0.1em);
+      }
+    </style>
+  </head>
+
+  <body class="index-page" style="background-color: gray">
+    <header id="header" class="header dark-background d-flex flex-column">
+      <i class="header-toggle d-xl-none bi bi-list"></i>
+
+      <div class="profile-img">
+        <img
+          src="assets/img/VivekRaj.jpg"
+          alt=""
+          class="img-fluid rounded-circle"
+          style="width: 40%; height: 65%"
+        />
+      </div>
+
+      <a
+        href="index.html"
+        class="logo d-flex align-items-center justify-content-center"
+      >
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Vivek Raj</h1>
+      </a>
+
+      <div class="social-links text-center">
+        <p>Namaste! Welcome to my Website!</p>
+      </div>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="index.html" class="active"
+              ><i class="bi bi-house navicon"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="index.html#about"
+              ><i class="bi bi-person navicon"></i> About</a
+            >
+          </li>
+          <li>
+            <a href="/assets/img/VivekRaj.jpg"
+              ><i class="bi bi-download navicon"></i>Profile Image</a
+            >
+          </li>
+          <li>
+            <a href="/media.html"
+              ><i class="bi bi-newspaper navicon"></i>Media Coverage</a
+            >
+          </li>
+          <li>
+            <a href="https://linktr.ee/vivekrajpoojary"
+              ><i class="bi bi-link-45deg navicon"></i> Link Tree</a
+            >
+          </li>
+          <li>
+            <a href="index.html/#contact"
+              ><i class="bi bi-envelope navicon"></i> Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- Page Title -->
+      <div class="page-title dark-background">
+        <div
+          class="container d-lg-flex justify-content-between align-items-center"
+        >
+          <h1 class="mb-2 mb-lg-0">Media Coverage</h1>
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li class="current">Coverage Details</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <!-- End Page Title -->
+
+      <!-- Portfolio Details Section -->
+      <section id="portfolio-details" class="portfolio-details section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <hr id="1" />
+          <br /><br /><br />
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/1.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="portfolio-info"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3>Article Information</h3>
+                <ul>
+                  <li>
+                    <strong>News Headline</strong>: City's CEO heads for WEF in
+                    China
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <br /><br /><br />
+          <hr id="2" />
+          <br /><br /><br />
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/2.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="portfolio-info"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3>Article Information</h3>
+                <ul>
+                  <li>
+                    <strong>News Headline</strong>: Panama to develop Coal, Iron
+                    Ore Blocks in Zimbabwe
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <br /><br /><br />
+          <hr id="3" />
+          <br /><br /><br />
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/3.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="portfolio-info"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3>Article Information</h3>
+                <ul>
+                  <li>
+                    <strong>News Headline</strong>: Panama becomes Mangalore's
+                    Pride
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <br /><br /><br />
+          <hr id="4" />
+          <br /><br /><br />
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/4.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="portfolio-info"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3>Article Information</h3>
+                <ul>
+                  <li>
+                    <strong>News Headline</strong>: City's Vivek Raj to attend
+                    World Economic Summit in New Delhi
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <br /><br /><br />
+          <hr id="5" />
+          <br /><br /><br />
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/5.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="portfolio-info"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3>Article Information</h3>
+                <ul>
+                  <li>
+                    <strong>News Headline</strong>: City man to co-host economic
+                    summit
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <br /><br /><br />
+          <hr id="6" />
+          <br /><br /><br />
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/6.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="portfolio-info"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3>Article Information</h3>
+                <ul>
+                  <li>
+                    <strong>News Headline</strong>: Panama Corporation gains
+                    respect in the presence of its guests.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <br /><br /><br />
+          <hr id="7" />
+          <br /><br /><br />
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/7.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="portfolio-info"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3>Article Information</h3>
+                <ul>
+                  <li>
+                    <strong>News Headline</strong>: Panama Group heads to World
+                    Economic Forum
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <br /><br /><br />
+          <hr id="8" />
+          <br /><br /><br />
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/8.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="portfolio-info"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3>Article Information</h3>
+                <ul>
+                  <li><strong>News Headline</strong>: TO BE ADDED</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <br /><br /><br />
+          <hr id="9" />
+          <br /><br /><br />
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/9.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="portfolio-info"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3>Article Information</h3>
+                <ul>
+                  <li>
+                    <strong>News Headline</strong>: Diligence: Efforts of Vivek
+                    Raj
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <br /><br /><br />
+          <hr id="10" />
+          <br /><br /><br />
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/10.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="portfolio-info"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3>Article Information</h3>
+                <ul>
+                  <li>
+                    <strong>News Headline</strong>: City's Vivek Raj to attend
+                    World Economic Summit in New Delhi
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <br /><br /><br />
+          <hr id="11" />
+          <br /><br /><br />
+          <div class="row gy-4">
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                  {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                      "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                      "el": ".swiper-pagination",
+                      "type": "bullets",
+                      "clickable": true
+                    }
+                  }
+                </script>
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/11.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="portfolio-info"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <h3>Article Information</h3>
+                <ul>
+                  <li>
+                    <strong>News Headline</strong>: Global Visionary Vivek Raj
+                    Poojary redefines Agriculture with Hydroponic Saffron
+                    Farming
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Portfolio Details Section -->
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
+      <div class="container">
+        <div class="copyright text-center">
+          <p>
+            © <span>Copyright</span>
+            <strong class="px-1 sitename">2024</strong>
+            <span>All Rights Reserved</span>
+          </p>
+        </div>
+        <div class="credits">
+          <a href="https://panamacorporationltd.com/"
+            >PANAMA CORPORATION LTD.</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="https://hcaptcha.com/1/api.js" async defer></script>
+  </body>
+</html>
